@@ -1,0 +1,16 @@
+{
+  "apps" : [{
+    "name"               : "egg-demo",
+    "script"             : "index.js",
+    "exec_interpreter"   : "node",
+    "node_args"          : "--harmony",
+    "instances"          : 4,
+    "log_date_format"    : "YYYY-MM-DD HH:mm Z",
+    "max_memory_restart" : "1400M",
+    "merge_logs"         : true,
+    "watch"              : false,
+    "error_file"         : "/var/logs/egg-demo/stderr.log",
+    "out_file"           : "/var/logs/egg-demo/stdout.log",
+    "pid_file"           : "/var/logs/egg-demo/node-bd.pid"
+  }]
+}
